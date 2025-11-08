@@ -31,7 +31,7 @@ LOADCPU=$(printf '%-0.00001s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }
 MODEL=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 CORE=$(printf '%-1s' "$(grep -c cpu[0-9] /proc/stat)")
 Exp="Lifetime"
-Name="NevermoreSSH AIO"
+Name="MULTIPLUS"
 # Total BANDWIDTH
 dtoday="$(vnstat -i eth0 | grep "today" | awk '{print $2" "substr ($3, 1, 1)}')"
 utoday="$(vnstat -i eth0 | grep "today" | awk '{print $5" "substr ($6, 1, 1)}')"
@@ -143,7 +143,7 @@ echo -e "\033[1;93m│  ${grenbo}19.${NC} \033[0mINSTALL UDP${NC}     ${grenbo}2
 echo -e "\033[1;93m└──────────────────────────────────────────┘\033[0m"
 echo -e ""
 echo -e "\033[1;93m┌───────────────────────────────────────────┐\033[0m"
-echo -e "\033[1;93m│\033[0m\033[0mNEVERMORESSH${NC}(C)\033[1;94mhttps://github.com/todfix667 ${NC}\033[1;93m\033[0m"
+echo -e "\033[1;93m│\033[0m\033[0mVERSION${NC}(C)\033[1;94mMULTIPLUS 1.7.0 ${NC}\033[1;93m\033[0m"
 echo -e "\033[1;93m└───────────────────────────────────────────┘\033[0m"
 echo -e ""
 read -p "Select From Options [ 1 - 18 ] : " menu
