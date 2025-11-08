@@ -1,6 +1,9 @@
 #!/bin/bash
 set -euo pipefail
-
+apt update -y && apt install -y unzip jq lsof openvpn easy-rsa haproxy
+mkdir -p /etc/haproxy /etc/openvpn/server/easy-rsa
+touch /etc/sysctl.conf
+apt install util-linux -y
 ### Color
 Green="\e[92;1m"
 RED="\033[31m"
