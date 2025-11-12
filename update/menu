@@ -1,12 +1,11 @@
 #!/bin/bash
 # //====================================================
 # //	System Request:Debian 9+/Ubuntu 18.04+/20+
-# //	Author:	elliez667
+# //	Author:	MAHBOUB
 # //	Dscription: Xray Menu Management
-# //	email: elliez667@gmail.com
-# //  telegram: https://t.me/todfix667
+# //  telegram: t.me/vpsplus71 
 # //====================================================
-# // font color configuration | AUTOSCRIPT BY NEVERMORESSH
+# // font color configuration | AUTOSCRIPT BY VPSPLUS71
 # COLOR VALIDATION
 clear
 RED='\033[0;31m'
@@ -101,7 +100,7 @@ else
 fi
 clear
 echo -e "\033[1;93m──────────────────────────────────────────\033[0m"
-echo -e "\033[42m    ∆ NEVERMORESSH MANAGER COMMUNITY ∆   \033[0m"
+echo -e "\033[42m    ∆ MULTI  PLUS  MANAGER  ∆   \033[0m"
 echo -e "\033[1;93m──────────────────────────────────────────\033[0m"
 echo -e " ${YELL}System OS${NC}     : \033[0m$MODEL${NC}"
 echo -e " ${YELL}Kernel OS ${NC}    : \033[0m$(uname -r) $NC"
